@@ -42,6 +42,10 @@ body::-webkit-scrollbar {
   font-weight: 900;
 }
 
+.card img {
+  max-height: 3rem;
+}
+
 #physicsicon, #mathsicon, #addicon {
   filter: invert(1);
 }
