@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
   border-radius: 17px;
   margin-bottom: 2vw;
   min-width: 30vw;
-  padding: 4rem;
+  padding: 3.5rem;
   font-size: 5rem;
   font-weight: 500;
 }
