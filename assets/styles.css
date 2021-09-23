@@ -93,6 +93,6 @@ table p {
 .menu img {
   display: block;
   margin: auto;
-  max-width: 4vw;
+  max-width: 9vw;
   filter: invert(1);
 }
