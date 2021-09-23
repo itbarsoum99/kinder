@@ -43,7 +43,7 @@ body::-webkit-scrollbar {
 }
 
 .card img {
-  max-height: 8rem;
+  max-height: 6rem;
 }
 
 #physicsicon, #mathsicon, #addicon {
