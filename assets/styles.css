@@ -56,6 +56,7 @@ body::-webkit-scrollbar {
   margin-left: auto;
   margin-right: auto;
   margin-top: 3vh;
+  margin-bottom: 20vh;
 }
 
 table {
@@ -65,4 +66,33 @@ table {
 table p {
   margin-block-start: 0rem;
   margin-block-end: 0rem;
+}
+
+.menu {
+  background-color: #323232;
+  border-radius: 30px;
+  width: 75vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  bottom: 10px;
+  left: 12.5vw;
+  right: 12.5vw;
+}
+
+.menu table {
+  margin: auto;
+}
+
+.menu td {
+  padding: 15px;
+  text-align: center;
+}
+
+.menu img {
+  display: block;
+  margin: auto;
+  max-width: 45px;
+  filter: invert(1);
 }
