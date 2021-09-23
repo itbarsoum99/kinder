@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+  background-color: #212121;
+  font-family: "Roboto", sans-serif;
+  color: #efefef;
+  margin: 0;
+  padding: 2vw;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+  background-color: #323232;
+  border-radius: 17px;
+  margin-bottom: 17px;
+  min-width: 30vw;
+  padding: 2rem;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#science {
+  background-color: #389638;
+}
+
+#maths {
+  background-color: #6495ed;
+}
+
+#language {
+  background-color: #ffae19;
+  color: #212121;
+}
+
+.course {
+  font-weight: 900;
+}
+
+.card img {
+  max-height: 25px;
+}
+
+#physicsicon, #mathsicon, #addicon {
+  filter: invert(1);
+}
+
+#addicon {
+  width: 20vw;
+}
+
+table {
+  border-spacing: 0px;
+}
+
+table p {
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+}
