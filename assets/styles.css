@@ -52,6 +52,8 @@ body::-webkit-scrollbar {
 
 #addicon {
   width: 20vw;
+  margin: auto;
+  margin-top: 3vh;
 }
 
 table {
