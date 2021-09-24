@@ -62,8 +62,8 @@ body::-webkit-scrollbar {
 .card img {
   max-height: 6rem;
   display: block;
-  margin-left: auto !important;
-  margin-right: 0rem;
+  margin-left: 100%;
+  transform: translate(-100%);
 }
 
 #coursepagecontent .card {
