@@ -222,6 +222,6 @@ table p {
 
 @media (pointer: coarse) {
   .card img {
-    display: none;
+    display: none !important;
   }
 }
