@@ -33,12 +33,18 @@ body::-webkit-scrollbar {
   cursor: pointer;
 }
 
+
+
 ::selection {
   background-color: none;
 }
 
 #science {
   background-color: #389638;
+}
+
+#history {
+  background-color: #fd5e53;
 }
 
 #maths {
@@ -56,9 +62,17 @@ body::-webkit-scrollbar {
 
 .card img {
   max-height: 6rem;
+  display: block;
+  margin-left: auto !important;
+  margin-right: 0rem;
 }
 
-#physicsicon, #mathsicon, #addicon {
+#coursepagecontent .card {
+  background-color: #969696;
+  color: #121212;
+}
+
+#physicsicon, #mathsicon, #addicon, #historyicon {
   filter: invert(1);
 }
 
@@ -113,12 +127,15 @@ table p {
   cursor: pointer;
 }
 
+#coursepagecontent {
+  padding-bottom: 20vh;
+}
+
 @media (pointer: fine) {
 body {
   margin: 0;
   padding: 2vw;
 }
-
 
 .card {
   border-radius: 17px;
@@ -131,7 +148,7 @@ body {
   margin-left: auto;
 }
 
-.course {
+.course, .title {
   font-weight: 900;
 }
 
@@ -154,6 +171,14 @@ table {
   border-spacing: 0px;
 }
 
+.card table {
+  width: 100%;
+}
+
+#coursepagecontent .card td {
+  width: 50%;
+}
+
 table p {
   margin-block-start: 0rem;
   margin-block-end: 0rem;
@@ -174,7 +199,6 @@ table p {
 .menu img {
   display: block;
   max-width: 4vw !important;
-}
 }
 
 @media (pointer: fine) and (max-width: 950px) {
