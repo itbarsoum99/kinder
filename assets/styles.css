@@ -11,6 +11,10 @@ body {
 
 }
 
+body:hover {
+  cursor: default;
+}
+
 body::-webkit-scrollbar {
     display: none;
 }
@@ -23,6 +27,14 @@ body::-webkit-scrollbar {
   padding: 3.5rem;
   font-size: 5rem;
   font-weight: 500;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+::selection {
+  background-color: none;
 }
 
 #science {
