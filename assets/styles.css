@@ -219,3 +219,9 @@ table p {
     width: 8vw;
   }
 }
+
+@media (pointer: coarse) {
+  .card img {
+    display: none;
+  }
+}
