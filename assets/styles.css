@@ -169,6 +169,9 @@ table p {
   .card {
     font-size: 1.75rem;
   }
+  .card img {
+    max-height: 1.75rem;
+  }
   #addicon {
     width: 8vw;
   }
