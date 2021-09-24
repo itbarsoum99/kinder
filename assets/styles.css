@@ -65,6 +65,7 @@ body::-webkit-scrollbar {
   margin-left: 100%;
   transform: translate(-100%);
   text-align: center;
+  display: none !important;
 }
 
 #coursepagecontent .card {
@@ -213,15 +214,10 @@ table p {
     font-size: 1.75rem;
   }
   .card img {
+    display: block;
     max-height: 1.75rem;
   }
   #addicon {
     width: 8vw;
-  }
-}
-
-@media (pointer: coarse) {
-  .card img {
-    display: none !important;
   }
 }
