@@ -64,6 +64,7 @@ body::-webkit-scrollbar {
   display: block;
   margin-left: 100%;
   transform: translate(-100%);
+  text-align: center;
 }
 
 #coursepagecontent .card {
