@@ -96,3 +96,63 @@ table p {
   max-width: 9vw;
   filter: invert(1);
 }
+
+@media (pointer: fine) {
+body {
+  margin: 0;
+  padding: 2vw;
+}
+
+
+.card {
+  border-radius: 17px;
+  margin-bottom: 2vw;
+  max-width: 45vw;
+  padding: 3.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.course {
+  font-weight: 900;
+}
+
+.card img {
+  max-height: 3rem;
+}
+
+
+#addicon {
+  width: 15vw;
+  margin-top: 3vh;
+  margin-bottom: 20vh;
+}
+
+table {
+  border-spacing: 0px;
+}
+
+table p {
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+}
+
+.menu {
+  border-radius: 30px;
+  width: 35vw;
+  bottom: 10px;
+  left: 32.5vw;
+  right: 32.5vw;
+}
+
+.menu td {
+  padding: 25px;
+}
+
+.menu img {
+  display: block;
+  max-width: 9vw;
+}
+}
