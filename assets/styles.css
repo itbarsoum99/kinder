@@ -111,8 +111,7 @@ table p {
   margin: auto;
 }
 
-.menu td {
-  padding: 25px;
+.menu td { padding: 25px;
   text-align: center;
 }
 
@@ -218,5 +217,11 @@ table p {
   }
   #addicon {
     width: 8vw;
+  }
+}
+
+@media (pointer: coarse) {
+  body {
+    margin: auto;
   }
 }
