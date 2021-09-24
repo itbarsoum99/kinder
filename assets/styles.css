@@ -156,3 +156,17 @@ table p {
   max-width: 4vw !important;
 }
 }
+
+@media (pointer: fine) and (max-width: 850px) {
+  .menu {
+    width: 60vw;
+    left: 20vw;
+    right: 20vw;
+  }
+  .menu img {
+    max-width: 7vw !important;
+  }
+  .card {
+    font-size: 1.75rem;
+  }
+}
