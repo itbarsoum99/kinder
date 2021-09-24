@@ -200,6 +200,10 @@ table p {
   display: block;
   max-width: 4vw !important;
 }
+.card img {
+  display: block !important;
+}
+}
 
 @media (pointer: fine) and (max-width: 950px) {
   .menu {
@@ -213,11 +217,11 @@ table p {
   .card {
     font-size: 1.75rem;
   }
-  .card img {
-    display: block;
-    max-height: 1.75rem;
-  }
+  
   #addicon {
     width: 8vw;
+  }
+  .card img {
+    max-height: 1.75rem;
   }
 }
