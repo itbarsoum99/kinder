@@ -109,6 +109,10 @@ table p {
   filter: invert(1);
 }
 
+.menu img:hover {
+  cursor: pointer;
+}
+
 @media (pointer: fine) {
 body {
   margin: 0;
@@ -140,6 +144,10 @@ body {
   width: 6vw;
   margin-top: 3vh;
   margin-bottom: 20vh;
+}
+
+#addicon:hover {
+  cursor: pointer;
 }
 
 table {
