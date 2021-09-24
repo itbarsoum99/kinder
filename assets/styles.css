@@ -157,7 +157,7 @@ table p {
 }
 }
 
-@media (pointer: fine) and (max-width: 850px) {
+@media (pointer: fine) and (max-width: 950px) {
   .menu {
     width: 60vw;
     left: 20vw;
@@ -168,5 +168,8 @@ table p {
   }
   .card {
     font-size: 1.75rem;
+  }
+  .addicon {
+    width: 11vw;
   }
 }
