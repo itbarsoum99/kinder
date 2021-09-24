@@ -125,7 +125,7 @@ body {
 
 
 #addicon {
-  width: 15vw;
+  width: 4vw;
   margin-top: 3vh;
   margin-bottom: 20vh;
 }
@@ -153,6 +153,6 @@ table p {
 
 .menu img {
   display: block;
-  max-width: 4vw;
+  max-width: 4vw !important;
 }
 }
