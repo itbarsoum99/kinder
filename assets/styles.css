@@ -169,7 +169,7 @@ table p {
   .card {
     font-size: 1.75rem;
   }
-  .addicon {
+  #addicon {
     width: 11vw;
   }
 }
