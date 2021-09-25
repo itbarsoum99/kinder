@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #212121;
   font-family: "Roboto", sans-serif;
@@ -131,6 +135,46 @@ table p {
   padding-bottom: 20vh;
 }
 
+.messages {
+  width: 75vw;
+  margin: auto;
+  margin-bottom: 20vh;
+}
+
+.msg {
+  background-color: #434343;
+  border-radius: 15px;
+  padding: 28px;
+}
+.msg span {
+  line-height: 1.2;
+}
+
+.diagram {
+  max-width: 20vw;
+}
+
+.tomsg {
+  border-radius: 15px 15px 0px 15px;
+  background-color: #389638;
+}
+
+.frommsg {
+  border-radius: 15px 15px 15px 0px;
+}
+
+.inputspan {
+  text-align: right !important;
+  background-color: transparent;
+}
+
+.input {
+  opacity: 0.5;
+  border: 1px solid #efefef;
+  padding: 15px;
+  border-radius: 15px;
+}
+
 @media (pointer: fine) {
 body {
   margin: 0;
@@ -223,5 +267,23 @@ table p {
   }
   .card img {
     max-height: 1.75rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .messages table, .messages thead, .messages tbody, .messages th, .messages td, .messages tr { 
+		display: block; 
+	}
+	.messages td {
+    border: none;
+		position: relative;
+		white-space: normal;
+		text-align:left;
+    margin-bottom: 15px;
+	}
+  .messages .empty {
+    margin-bottom: 0px;
+    height: 0px;
+    padding: 0px;
   }
 }

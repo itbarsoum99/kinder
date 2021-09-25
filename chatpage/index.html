@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kinder</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body onLoad="moveWin();">
+    <main class="content">
+      <table class="messages">
+        <tr>
+          <td class="msg frommsg">
+            <span>Hi! What do you need help with?</span>
+          </td>
+          <td class="empty">
+          </td>
+        </tr>
+        <tr>
+          <td class="empty">
+          </td>
+          <td class="msg tomsg">
+            <span>How do you do the problem "A person pushes a ball off a cliff horizontally at Vx=8.3m/s. How far away from the base of the cliff will the ball land?"</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="msg frommsg">
+            <span>Well, since the ball is being launched horizontally, you know that Vi=0, and a=9.8m/s^2 due to gravity. You can use the kinematic equations to find time and with V=Δx/t.</span>
+          </td>
+          <td class="empty">
+          </td>
+        </tr>
+        <tr>
+          <td class="empty">
+          </td>
+          <td class="msg tomsg">
+            <span>Ok thanks! Why is Vi=0?</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="msg frommsg">
+            <span>Think about launching horizontally: <br/><img class="diagram" src="/assets/projectile.svg"/><br/></span>
+            <span>When you throw it straight off the cliff, the total velocity vector is composed using cos(0) and sin(0): cos(0) = 1 and sin(0) = 0. This means that the initial y velocity has to be 0.</span>
+          </td>
+          <td class="empty">
+          </td>
+        </tr>
+        <tr>
+          <td class="empty">
+          </td>
+          <td class="msg tomsg">
+            <span>Ohh okay, thank you!</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="msg frommsg">
+            <span>No problem :)</span>
+          </td>
+          <td class="empty">
+          </td>
+        </tr>
+        <tr>
+          <td class="empty">
+          </td>
+          <td class="msg inputspan">
+            <span class="input">Write your message</span>
+          </td>
+        </tr>
+      </table>
+      <div class="container">
+      <section class="menu">
+        <table>
+          <tr>
+            <td>
+              <img src="/assets/homeicon.png" id="homeicon"/>
+            </td>
+            <td>
+              <img src="/assets/calcicon.png" id="calculatoricon"/>
+            </td>
+            <td>
+              <img src="/assets/dicticon.png" id="dictionaryicon"/>
+            </td>
+            <td>
+              <img src="/assets/chaticon.png" id="chaticon"/>
+            </td>
+          </tr>
+      </section>
+      </div>
+  <script>
+    function moveWin()
+      {
+        window.scroll(0,10000);
+      }
+  </script>
+    </main>
+  </body>
+</html>
+
+
