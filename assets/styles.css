@@ -318,4 +318,13 @@ table p {
     height: 0px;
     padding: 0px;
   }
+  .input {
+    border: none;
+    opacity: 1;
+  }
+  .inputspan {
+    border: 1px solid #efefef !important;
+    opacity: 0.5;
+    padding: 15px !important;
+  }
 }
