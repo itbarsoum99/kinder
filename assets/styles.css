@@ -235,7 +235,7 @@ table {
 }
 
 #coursepagecontent .card td {
-  width: 50%;
+  width: 50% !important;
 }
 
 table p {
