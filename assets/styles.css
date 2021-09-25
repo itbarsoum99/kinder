@@ -328,3 +328,30 @@ table p {
     padding: 15px !important;
   }
 }
+
+@media (pointer: coarse) {
+  .messages table, .messages thead, .messages tbody, .messages th, .messages td, .messages tr { 
+		display: block; 
+	}
+	.messages td {
+    border: none;
+		position: relative;
+		white-space: normal;
+		text-align:left;
+    margin-bottom: 15px;
+	}
+  .messages .empty {
+    margin-bottom: 0px;
+    height: 0px;
+    padding: 0px;
+  }
+  .input {
+    border: none;
+    opacity: 1;
+  }
+  .inputspan {
+    border: 1px solid #efefef !important;
+    opacity: 0.5;
+    padding: 15px !important;
+  }
+}
