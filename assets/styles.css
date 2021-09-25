@@ -70,10 +70,9 @@ body::-webkit-scrollbar {
 .card img {
   max-height: 6rem;
   display: block;
-  margin-left: 100%;
+  margin-left: 100% !important;
   transform: translate(-100%);
   text-align: center;
-  display: none !important;
 }
 
 #coursepagecontent .card {
