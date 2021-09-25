@@ -147,7 +147,7 @@ table p {
 .messages {
   width: 75vw;
   margin: auto;
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
 }
 
 .msg {
@@ -211,6 +211,9 @@ body {
 
 .card img {
   max-height: 3rem;
+}
+.messages {
+  margin-bottom: 20vh;
 }
 
 
