@@ -363,4 +363,8 @@ table p {
     opacity: 0.5;
     padding: 15px !important;
   }
+  .card img {
+     margin-left: 100% !important;
+    transform: translate(-100%);
+  }
 }
