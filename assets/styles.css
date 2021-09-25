@@ -154,6 +154,8 @@ table p {
   background-color: #434343;
   border-radius: 15px;
   padding: 28px;
+  font-size: 5rem;
+
 }
 .msg span {
   line-height: 1.2;
@@ -200,7 +202,9 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-
+.msg {
+  font-size: 1rem;
+}
 .course, .title {
   font-weight: 900;
 }
@@ -269,6 +273,9 @@ table p {
   }
   .card {
     font-size: 1.75rem;
+  }
+  .msg {
+    font-size: 1rem;
   }
   
   #addicon {
