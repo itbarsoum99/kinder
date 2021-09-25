@@ -205,7 +205,7 @@ body {
   font-size: 1rem;
 }
 .course, .title {
-  font-weight: 900;
+  font-weight: 900 !important;
 }
 
 .card img {
@@ -288,6 +288,13 @@ table p {
   }
 }
 
+@media (pointer: fine) and (max-width: 700px) {
+  .card {
+    padding: 2rem;
+    max-width: 75vw;
+  }
+}
+
 @media (pointer: fine) and (max-width: 600px) {
   .menu {
     width: 90vw;
@@ -306,6 +313,7 @@ table p {
     opacity: 0.5;
     padding: 15px !important;
   }
+  
 }
 
 @media (max-width: 950px) {
