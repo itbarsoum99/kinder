@@ -160,7 +160,7 @@ table p {
 }
 
 .diagram {
-  max-width: 20vw;
+  max-width: 50%;
 }
 
 .tomsg {
@@ -276,6 +276,29 @@ table p {
   }
   .card img {
     max-height: 1.75rem;
+  }
+  .diagram {
+    max-width: 75%;
+  }
+}
+
+@media (pointer: fine) and (max-width: 600px) {
+  .menu {
+    width: 90vw;
+    left: 5vw;
+    right: 5vw;
+  }
+  .menu img {
+    max-width: 8vw !important;
+  }
+  .input {
+    border: none;
+    opacity: 1;
+  }
+  .inputspan {
+    border: 1px solid #efefef !important;
+    opacity: 0.5;
+    padding: 15px !important;
   }
 }
 
