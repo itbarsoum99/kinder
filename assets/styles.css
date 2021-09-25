@@ -181,7 +181,7 @@ table p {
 
 .input {
   opacity: 0.5;
-  border: 3px solid #efefef;
+  border: 1px solid #efefef !important;
   padding: 15px;
   border-radius: 15px;
 }
@@ -360,7 +360,7 @@ table p {
     opacity: 1;
   }
   .inputspan {
-    border: 1px solid #efefef !important;
+    border: 3px solid #efefef !important;
     opacity: 0.5;
     padding: 15px !important;
   }
