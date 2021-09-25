@@ -375,4 +375,7 @@ table p {
   .imgtd {
     width: 10% !important;
   }
+  .course, .title {
+    font-weight: 900 !important;
+  }
 }
