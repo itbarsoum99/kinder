@@ -211,6 +211,11 @@ body {
 .card img {
   max-height: 3rem;
 }
+
+.imgtd {
+  width: 10%;
+}
+
 .messages {
   margin-bottom: 20vh;
 }
@@ -232,10 +237,6 @@ table {
 
 .card table {
   width: 100%;
-}
-
-.card td {
-  width: 50%;
 }
 
 table p {
