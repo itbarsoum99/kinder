@@ -234,8 +234,8 @@ table {
   width: 100%;
 }
 
-#coursepagecontent .card td {
-  width: 50% !important;
+.card td {
+  width: 50%;
 }
 
 table p {
