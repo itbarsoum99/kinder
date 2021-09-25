@@ -365,6 +365,6 @@ table p {
     transform: translate(-100%);
   }
   .imgtd {
-    width: 100% !important;
+    width: 10% !important;
   }
 }
