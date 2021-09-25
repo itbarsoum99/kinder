@@ -212,10 +212,6 @@ body {
   max-height: 3rem;
 }
 
-.imgtd {
-  width: 100% !important;
-}
-
 .messages {
   margin-bottom: 20vh;
 }
@@ -367,5 +363,8 @@ table p {
   .card img {
      margin-left: 100% !important;
     transform: translate(-100%);
+  }
+  .imgtd {
+    width: 100% !important;
   }
 }
